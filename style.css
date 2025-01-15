@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.app-container {
+    max-width: 360px;
+    margin: auto;
+    background-color: white;
+    min-height: 100vh;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search-bar input {
+    border: none;
+    background-color: transparent;
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-bar i {
+    color: #888;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.recommended-jobs {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.job-carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.job-card {
+    flex: 0 0 150px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.job-card .job-details {
+    margin-bottom: 10px;
+}
+
+.job-card h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.job-card .job-location {
+    font-size: 12px;
+    color: #666;
+}
+
+.job-card .job-salary {
+    font-size: 12px;
+    color: green;
+}
+
+.job-card i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ff6b6b;
+}
+
+.other-jobs {
+    padding: 15px;
+}
+
+.job-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.job-list-item h3 {
+    font-size: 14px;
+}
+
+.job-list-item .job-salary {
+    color: green;
+    font-size: 12px;
+}
+
+.job-list-item i {
+    color: #ff6b6b;
+}
+
+.mentorship-section {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.mentorship-card {
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.bottom-nav a {
+    color: #888;
+    font-size: 24px;
+}
